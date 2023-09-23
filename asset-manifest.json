@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1ae46f44.css",
-    "main.js": "/static/js/main.1d1811a5.js",
+    "main.js": "/static/js/main.63497070.js",
+    "static/media/ellaProfile.jpg": "/static/media/ellaProfile.eed8ddea840ff9605905.jpg",
     "static/media/ellaCute.jpg": "/static/media/ellaCute.cf03619036a22370a7bc.jpg",
     "static/media/project2.jpg": "/static/media/project2.47900941bcc75f4f2cb3.jpg",
     "static/media/flashcard.gif": "/static/media/flashcard.e1da07ecec70f29d22b4.gif",
@@ -11,7 +12,6 @@
     "static/media/dashboard.png": "/static/media/dashboard.9d5904a67371c80309d5.png",
     "static/media/project1.jpg": "/static/media/project1.5f4ab581f848f8050bec.jpg",
     "static/media/Resume.pdf": "/static/media/Resume.6f9381ed34b3901b2af0.pdf",
-    "static/media/ellaProfile.jpg": "/static/media/ellaProfile.a1df7517edaf5e0ba9e7.jpg",
     "static/media/project3.jpg": "/static/media/project3.7645f62da53c2c238969.jpg",
     "static/media/raleway-latin-400-italic.woff2": "/static/media/raleway-latin-400-italic.a61421326cf23f04289a.woff2",
     "static/media/raleway-latin-400-normal.woff2": "/static/media/raleway-latin-400-normal.0bdecdd83e78d540c297.woff2",
@@ -35,10 +35,10 @@
     "static/media/raleway-vietnamese-400-normal.woff": "/static/media/raleway-vietnamese-400-normal.6e3329d005a65d1f9bb5.woff",
     "index.html": "/index.html",
     "main.1ae46f44.css.map": "/static/css/main.1ae46f44.css.map",
-    "main.1d1811a5.js.map": "/static/js/main.1d1811a5.js.map"
+    "main.63497070.js.map": "/static/js/main.63497070.js.map"
   },
   "entrypoints": [
     "static/css/main.1ae46f44.css",
-    "static/js/main.1d1811a5.js"
+    "static/js/main.63497070.js"
   ]
 }
