@@ -1,0 +1,315 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway";
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: left;
+    gap: 20px;
+}
+
+.content-wrapper2 {
+    display: block;
+    align-items: left;
+    gap: 20px;
+}
+
+.projects {
+    display: block;
+    align-items: left;
+    margin-top: 100px;
+    gap: 30px;
+}
+
+.image-container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: left;
+    width: auto;
+    /* Set the width and height as needed */
+    height: auto;
+}
+
+.profile-image {
+    width: 350px;
+    height: 525px;
+    border-radius: 10%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+    /* Enlarge the image on hover */
+    content: url('../assets/ellaCute.jpg');
+    /* Change the image source on hover */
+    width: 350px;
+    height: 525px;
+    object-fit: cover;
+}
+
+.project-image {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    border-style: solid;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-image2 {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 330px;
+    height: auto;
+    border-radius: 0%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-image3 {
+    margin-left: 60px;
+    width: 600px;
+    height: auto;
+    border-radius: 0%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-image4 {
+    margin-left: 50px;
+    width: 400px;
+    height: auto;
+    border-radius: 0%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-image:hover {
+    transform: scale(1.22);
+    object-fit: cover;
+}
+
+.intro {
+    font-family: "Raleway";
+    font-weight: 350;
+    padding-left: 10%;
+    margin-left: 0px;
+    margin-right: 100px;
+    word-wrap: break-word;
+}
+
+.intro-text {
+    margin-left: 30px;
+}
+
+.hello {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #0041a5;
+    margin-bottom: 30px;
+}
+
+.subhello {
+    font-size: 18px;
+    color: black;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+    color: black;
+}
+
+.fade-in2 {
+    animation: fadeIn 2s ease-in-out;
+    color: black;
+}
+
+.fade-in2:hover {
+    transition: 0.3s;
+    font-size: 110%;
+    color: black;
+}
+
+.fade-in:hover {
+    transition: 0.3s;
+    font-size: 110%;
+    color: white;
+    background-color: rgb(72, 72, 248);
+}
+
+.currently {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    font-size: larger;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.announcement {
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    font-size: larger;
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(81, 221, 0);
+    font-style: italic;
+    margin-right: 630px;
+}
+
+.description {
+    margin-top: 10px;
+    color: black;
+    font-family: "Raleway";
+    font-size: 17px;
+}
+
+.description:hover {
+    background-color: rgb(72, 72, 248);
+    color: white;
+    transition: 0.2s;
+    font-size: larger;
+}
+
+.project-button {
+    display: block;
+    font-family: "Raleway";
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 23px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Shadow effect */
+    transition: background-color 0.3s ease;
+    /* Smooth hover transition */
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+
+.project-button:hover {
+    background-color: #0041a5;
+    /* Slightly darker blue on hover */
+}
+
+.section-title {
+    font-family: "Raleway";
+    margin-left: 600px;
+    font-size: 40px;
+    color: #002d70;
+    text-transform: lowercase;
+    letter-spacing: 9px;
+}
+
+.image-with-text-container {
+    display: flex;
+    align-items: center;
+    /* Vertically center the image and text */
+    max-width: 1000px;
+    /* Adjust to your desired maximum width */
+    margin: 0 1px;
+    /* Center the container horizontally */
+}
+
+.text {
+    flex-grow: 1;
+    margin-left: 100px;
+    margin-right: 0;
+    /* Allow the text to expand and take up remaining space */
+}
+
+.project-title {
+    font-family: "Raleway";
+    font-size: 28px;
+    margin-left: 50px;
+    margin-top: 90px;
+    color: #0041a5;
+    font-variant: small-caps;
+    text-align: left;
+    background-color: rgb(202, 255, 255);
+}
+
+.project-title:hover {
+    background-color: rgb(101, 255, 255);
+    color: black;
+    transition: 0.2s;
+}
+
+.project-info {
+    font-family: "Raleway";
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: black;
+    margin-right: 170px;
+}
+
+.contact-info {
+    font-family: "Raleway";
+    font-size: 18px;
+    margin-left: 70px;
+    margin-top: 70px;
+    color: black;
+}
+
+.contact-info2 {
+    font-family: "Raleway";
+    font-size: 16px;
+    margin-left: 70px;
+    margin-top: 30px;
+    color: #002d70;
+}
+
+.email {
+    margin-left: 70px;
+    text-decoration: underline;
+    color: blue;
+}
+
+.resume {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.keywords {
+    margin-left: 50px;
+    text-align: left;
+    font-style: italic;
+    color: #000000;
+}
+
+.keywords:hover {
+    background-color: rgb(72, 72, 248);
+    color: white;
+    transition: 0.2s;
+    font-size: larger;
+}
+
+.github {
+    margin-left: 50px;
+    color: #0041a5;
+    text-decoration: underline;
+}

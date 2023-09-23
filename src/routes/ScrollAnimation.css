@@ -1,0 +1,11 @@
+.animated-content {
+    opacity: 0;
+    transform: translateY(20px);
+    /* Optional: Add a subtle upward motion */
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.animated-content.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
