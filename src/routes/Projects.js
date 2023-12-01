@@ -13,8 +13,8 @@ return (
     <div>
         <Navbar />
         <div className = "section-title"> <b className={`animated-element ${'fade-in2'}`}>Projects.</b></div>
-        <div className = "project-title" >Jobify: Columbia Job Recruitment Database System</div>
-        <div className = "project-info"> <p className={`animated-element ${'fade-in2'}`}>More details to be updated soon!</p></div>
+        <div className = "project-title" >Food Delivery Logger Database</div>
+        <FoodApp />
         <div id = "fni" className = "project-title"> FNI App: An expert-centered knowledge dashboard to support multidisciplinary research</div>
         <FNIApp />
         <div className = "project-title"> Quizlet 2.0 (Multiplayer Flashcard Game!)</div>
@@ -52,15 +52,18 @@ function ImageWithText() {
   }
   
 
-// function ProjectContent() {
-//     return (
-//         <div>
-//         <FNIApp />
-//         <Treefluent />
-//         <Quilet />
-//         </div>
-//     );
-// }
+function FoodApp() {
+    return (
+    <div className = "project-info">
+    <p>Our database application allows employees to:</p>
+    <li>Search or filter user information, driver information, order information, restaurant information, menu information, and more, </li>
+    <li>Add and delete data in the database conveniently through the website,</li>
+    <li>Arrange data in a specific form and download or retrieve data directly via website.</li> 
+    <br></br>
+    This interactive application was made as a demo of a realistic application that employees of Food Delivery Application (i.e. DoorDash, Uber Eats) could utilize and facilitate any customer service conflicts or queries of their interest through their database.  
+    </div>
+    );
+}
 
 function Quilet()
  {
