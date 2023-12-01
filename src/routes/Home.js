@@ -64,9 +64,9 @@ function HomeContent() {
                     <br></br>
                     <p className = "currently">I am: </p>
                     <ul> 
-                    <li className="description"> studying Computer Science at Columbia University with a concentration in Machine Learning. </li>
-                    <li className="description"> actively seeking an Engineering Intern position for the Summer of 2024.</li>
-                    <li className="description"> interested in using the synergy of ML and HCI research to better the translation and communication between humans and technology. </li>
+                    <li className="description"> studying Computer Science at Columbia University with a concentration in Software Systems. </li>
+                    <li className="description"> actively seeking a Software Engineering Intern position for the Summer of 2024.</li>
+                    <li className="description"> interested in improving the translation and communication between humans and technology. </li>
                     </ul>
                     <button onClick={handleClick2} className = "project-button"> Find my Resume Here! </button>
                 </div>
