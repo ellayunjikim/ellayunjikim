@@ -66,7 +66,9 @@ function HomeContent() {
                     <p className = "currently">Updates: </p>
                     <ul>
                       <li className = "description">offered to join Meta for Summer 2024 as a Software Engineering Intern!</li>
-                      <img src={meta} alt="Meta"/>
+                      <div className="image-container">
+                        <img src={meta} alt="Meta"/>
+                      </div>
                       <li className = "description">finished a personal project on developing Data Engineering application for data scientists' use.</li>
                       <li className = "description">enrolled in Operating Systems, Human Computer Interaction, Private Systems, and UI Design this Spring.</li>
                     </ul>
@@ -75,7 +77,6 @@ function HomeContent() {
                     <li className="description"> studying Computer Science at Columbia University with a concentration in Software Systems. </li>
                     <li className="description"> interested in improving the translation and communication between humans and technology. </li>
                     </ul>
-                    <button onClick={handleClick2} className = "project-button"> Find my Resume Here! </button>
                 </div>
             </div>
             <div className = "projects">
