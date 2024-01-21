@@ -100,7 +100,6 @@ function Treefluent() {
         <div>
             <GithubLink />
             <b className = "keywords">Keywords: learning outcomes, interactive, tree, scatterplot, wordcloud, barchart, R, Shiny</b>
-        <div className = "announcement">Nominated 1st place app by Grinnell College Career Center staff!</div>
         <div>
             <img src={dashboard} alt="Interactive Dashboard" className="project-image4" />
             <div className = "project-info">This app creates different tree-driven data visualizations using learning assessment data provided by the staff of Grinnell College Center for Careers, Life, and Services. </div>

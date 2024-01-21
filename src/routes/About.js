@@ -27,7 +27,6 @@ function Resume() {
     return (
       <div>
         <div className = "title">(My Resume) </div>
-        <div className="resume"><embed src={pdfUrl} width="90%" height="600px" title="Resume" /></div>
       </div>
     );
   }
