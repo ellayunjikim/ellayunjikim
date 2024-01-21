@@ -9,6 +9,7 @@ import "@fontsource/raleway"; // Defaults to weight 400
 import "@fontsource/raleway/400.css"; // Specify weight
 import "@fontsource/raleway/400-italic.css"; // Specify weight and style
 import { useNavigate } from 'react-router-dom';
+import meta from "../assets/meta.gif"
 
 const Home = () => {
     return (
@@ -62,10 +63,16 @@ function HomeContent() {
                     <p className = "hello"><b>Hello, my name is Ella.</b></p>
                     <p className = "subhello">I aspire to leverage technology to foster <b className={`animated-element ${'fade-in'}`}>effective communication </b> <br></br>and enhance <b className={`animated-element ${'fade-in'}`}>human interactions.</b></p>
                     <br></br>
+                    <p className = "currently">Updates: </p>
+                    <ul>
+                      <li className = "description">offered to join Meta for Summer 2024 as a Software Engineering Intern!</li>
+                      <img src={meta} alt="Meta"/>
+                      <li className = "description">finished a personal project on developing Data Engineering application for data scientists' use.</li>
+                      <li className = "description">enrolled in Operating Systems, Human Computer Interaction, Private Systems, and UI Design this Spring.</li>
+                    </ul>
                     <p className = "currently">I am: </p>
                     <ul> 
                     <li className="description"> studying Computer Science at Columbia University with a concentration in Software Systems. </li>
-                    <li className="description"> actively seeking a Software Engineering Intern position for the Summer of 2024.</li>
                     <li className="description"> interested in improving the translation and communication between humans and technology. </li>
                     </ul>
                     <button onClick={handleClick2} className = "project-button"> Find my Resume Here! </button>
